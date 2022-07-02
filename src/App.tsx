@@ -1,12 +1,13 @@
 import React from 'react';
+import Main from './pages/main/Main';
 import './App.css';
 
+
 function App():JSX.Element {
-  return (
-    <div>
-      111
-    </div>
-  );
+  return <>
+    <Main/>
+  
+  </>
 }
 
 export default App;
