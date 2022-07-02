@@ -24,5 +24,55 @@
 .block1 .content .fortext {
   width: 534px;
   height: 340px;
-  border: 1px solid red;
+  color: white;
+}
+.block1 .content .fortext h1 {
+  width: 340px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 51px;
+  line-height: 58px;
+  margin-bottom: 25px;
+}
+.block1 .content .fortext p {
+  height: 112px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 39px;
+}
+.block1 .content .fortext .buttons {
+  width: 350px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.block1 .content .fortext .buttons a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  line-height: 45px;
+}
+.block1 .content .fortext .buttons .disc {
+  height: 100%;
+  width: 160px;
+  border-radius: 5px;
+  background-color: #5865F2;
+  background-image: url("./image/Group.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 116px 23px;
+}
+.block1 .content .fortext .buttons .conect {
+  height: 100%;
+  width: 175px;
+  border-radius: 5px;
+  background-color: #55FDDF;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
 }
