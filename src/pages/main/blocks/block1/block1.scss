@@ -50,27 +50,46 @@
                     text-decoration: none;
                     color: black;
                     text-align: center;
-                    line-height: 45px;
                 }
                 .disc {
+                    box-sizing: border-box;
                     height: 100%;
                     width: 160px;
                     border-radius: 5px;
-                    background-color: #5865F2;
                     background-image: url('./image/Group.svg');
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: 116px 23px;
+                    transition: 0.3s;
+                    background-origin: border-box;
+                    &:not(:hover) {
+                        background-color: #5865F2;
+                    }
+                    &:hover {
+                        border: 2px solid white;
+                    }
                 }
                 .conect {
                     height: 100%;
                     width: 175px;
                     border-radius: 5px;
-                    background-color: #55FDDF;
                     font-family: 'Manrope';
                     font-style: normal;
                     font-weight: 800;
                     font-size: 16px;
+                    transition: 0.3s;
+                    text-align: center;
+                    position: relative;
+                    border: 2px solid #55FDDF;
+                    line-height: 41px;
+                    span {}
+                    &:not(:hover) {
+                        background-color: #55FDDF;
+                    }
+                    &:hover {
+                        border: 2px solid white;
+                        color: white;
+                    }
                 }
             }
         }

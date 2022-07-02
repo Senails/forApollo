@@ -10,7 +10,7 @@ export default function Block1():JSX.Element {
                 <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                 <div className="buttons">
                     <a href=""><div className="disc"></div></a>
-                    <a href=""><div className="conect">Сотрудничество</div></a>
+                    <a href=""><div className="conect"><span>Сотрудничество</span></div></a>
                 </div>
             </div>
         </div>
