@@ -72,14 +72,14 @@ header .telegadiscord a div {
   transition: 0.3s;
 }
 header .telegadiscord a:nth-child(1) div {
-  background-image: url("./image/Telegram Icon.svg");
-}
-header .telegadiscord a:nth-child(1) div:hover {
   background-image: url("./image/Telegram Icon11.svg");
 }
-header .telegadiscord a:nth-child(2) div {
-  background-image: url("./image/Discord Icon.svg");
+header .telegadiscord a:nth-child(1) div:not(:hover) {
+  background-image: url("./image/Telegram Icon.svg");
 }
-header .telegadiscord a:nth-child(2) div:hover {
+header .telegadiscord a:nth-child(2) div {
   background-image: url("./image/Discord Icon11.svg");
+}
+header .telegadiscord a:nth-child(2) div:not(:hover) {
+  background-image: url("./image/Discord Icon.svg");
 }

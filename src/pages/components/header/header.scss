@@ -72,17 +72,17 @@ header {
             }
             &:nth-child(1) {
                 div {
-                    background-image: url('./image/Telegram\ Icon.svg');
-                    &:hover {
-                        background-image: url('./image/Telegram\ Icon11.svg');
+                    background-image: url('./image/Telegram\ Icon11.svg');
+                    &:not(:hover) {
+                        background-image: url('./image/Telegram\ Icon.svg');
                     }
                 }
             }
             &:nth-child(2) {
                 div {
-                    background-image: url('./image/Discord\ Icon.svg');
-                    &:hover {
-                        background-image: url('./image/Discord\ Icon11.svg');
+                    background-image: url('./image/Discord\ Icon11.svg');
+                    &:not(:hover) {
+                        background-image: url('./image/Discord\ Icon.svg');
                     }
                 }
             }
