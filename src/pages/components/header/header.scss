@@ -1,0 +1,78 @@
+header {
+    position: absolute;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0 40px;
+    box-sizing: border-box;
+    .logo {
+        position: absolute;
+        top: 18px;
+        height: 44px;
+        width: 144px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .log {
+            height: 44px;
+            width: 44px;
+            background-image: url('./image/Icon.svg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        p {
+            height: 36px;
+            width: 92px;
+            color: white;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+    nav {
+        position: absolute;
+        right: 150px;
+        width: 328px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-size: 15px;
+            line-height: 80px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .telegadiscord {
+        position: absolute;
+        top: 27px;
+        right: 40px;
+        width: 80px;
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            div {
+                width: 26px;
+                height: 26px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            &:nth-child(1) {
+                div {
+                    background-image: url('./image/Telegram\ Icon.svg');
+                }
+            }
+            &:nth-child(2) {
+                div {
+                    background-image: url('./image/Discord\ Icon.svg');
+                }
+            }
+        }
+    }
+}
