@@ -1,0 +1,28 @@
+.block1 {
+    width: 100%;
+    height: 820px;
+    background-color: rgb(22, 22, 22);
+    .content {
+        position: absolute;
+        left: calc(50% - 630px);
+        top: 150px;
+        width: 1260px;
+        height: 510px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .foranimation {
+            width: 610px;
+            height: 510px;
+            background-image: url('./image/Animation\ Video.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .fortext {
+            width: 534px;
+            height: 340px;
+            border: 1px solid red;
+        }
+    }
+}

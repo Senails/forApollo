@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import React from "react";
 import './header.css'
 
@@ -8,13 +9,13 @@ export default function Header():JSX.Element {
                 <p>ApolloCode Studio</p>
             </div>
             <nav>
-                <a href="">Направления</a>
-                <a href="">Команда</a>
-                <a href="">Поддержка</a>
+                <a href=''>Направления</a>
+                <a href=''>Команда</a>
+                <a href=''>Поддержка</a>
             </nav>
             <div className="telegadiscord">
-                <a href=""><div></div></a>
-                <a href=""><div></div></a>
-            </div>
+                <a href=''><div></div></a>
+                <a href=''><div></div></a>
+            </div> 
     </header>
 }
